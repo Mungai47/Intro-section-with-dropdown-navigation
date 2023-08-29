@@ -64,6 +64,7 @@ p{
         flex-direction: column; /* Stack the items vertically */
         align-items: center; /* Center items horizontally */
         text-align: center; /* Center text content horizontally */
+        padding-bottom: 100px;
     }
 
     .main-column1 button,
@@ -73,7 +74,29 @@ p{
     }
 }
 
-
+@media screen and (min-width: 768px){
+    .main-column1{
+        padding:100px 10px 20px 10px;
+    }
+    .main-column1 h1{
+        font-size: 5rem;
+        font-weight:1000;
+        padding: 40px auto;
+    }
+    .main-column1 p{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 20px auto;
+    }
+    .main-column1 button{
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 100px auto 100px auto;
+    }
+}
 .image-container {
     width: 50%;
     height: 50%;/* Set the desired height of the container */
